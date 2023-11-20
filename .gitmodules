@@ -1,0 +1,6 @@
+[submodule "include/cba"]
+	path = include/cba
+	url = https://github.com/CBATeam/CBA_A3.git
+[submodule "include/tmf"]
+	path = include/tmf
+	url = https://github.com/TMF3/TMF.git
