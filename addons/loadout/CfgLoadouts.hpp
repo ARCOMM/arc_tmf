@@ -1,6 +1,6 @@
 class CfgLoadouts {
 	// Delete TMF provided loadouts
-	delete BLU_F;
+	//delete BLU_F;
 	delete BLU_G_F;
 	delete CIV_F;
 	delete IND_F;
