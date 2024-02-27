@@ -23,11 +23,11 @@ private _loadoutClasses = "getNumber (_x >> 'overrideMacros') == 0" configClasse
 if (_loadoutClasses isEqualTo []) exitWith {_output};
 
 private _macrosArr = 'true' configClasses (configFile >> 'TMF_autotest' >> QGVAR(testMacros));
-MAP(_macrosArr,[ARR_4(			\
-	getText (_x >> 'role'),		\
-	getText(_x >> 'container'),	\
-	getText(_x >> 'name'),		\
-	getArray(_x >> 'contents')	\
+MAP(_macrosArr,[ARR_4(\
+	getText (_x >> 'role'),\
+	getText(_x >> 'container'),\
+	getText(_x >> 'name'),\
+	getArray(_x >> 'contents')\
 )]);
 
 if (getMissionConfigValue ["ARCMT", 0] < 1) exitWith {

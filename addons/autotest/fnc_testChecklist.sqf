@@ -10,7 +10,7 @@ Author:
 	Freddo
 ---------------------------------------------------------------------------- */
 
-WARNING_1("TESTING CHECKLIST",QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(ARR_2(checklist,checklistCheck)));
+WARNING_1("TESTING CHECKLIST",QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(checklist,checklistCheck));
 
 if (QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(checklist,checklistCheck)) then {
 	[]
