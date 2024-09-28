@@ -10,7 +10,8 @@ Author:
 	Freddo
 ---------------------------------------------------------------------------- */
 
-WARNING_1("TESTING CHECKLIST",QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(checklist,checklistCheck));
+/* TZY - Temporarily removed due to HEMTT problems. */
+//WARNING_1("TESTING CHECKLIST",QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(checklist,checklistCheck));
 
 if (QUOTE(DOUBLES(PREFIX,checklist)) get3DENMissionAttribute QEGVAR(checklist,checklistCheck)) then {
 	[]

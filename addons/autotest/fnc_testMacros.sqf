@@ -15,6 +15,7 @@ Parameters:
 
 Author:
 	Freddo
+	tim4242
 ---------------------------------------------------------------------------- */
 
 private _output = [];
@@ -23,12 +24,12 @@ private _loadoutClasses = "getNumber (_x >> 'overrideMacros') == 0" configClasse
 if (_loadoutClasses isEqualTo []) exitWith {_output};
 
 private _macrosArr = 'true' configClasses (configFile >> 'TMF_autotest' >> QGVAR(testMacros));
-MAP(_macrosArr,[ARR_4(\
+_macrosArr = _macrosArr apply {[\
 	getText (_x >> 'role'),\
 	getText(_x >> 'container'),\
 	getText(_x >> 'name'),\
 	getArray(_x >> 'contents')\
-)]);
+]};
 
 if (getMissionConfigValue ["ARCMT", 0] < 1) exitWith {
 	_output pushBack [0, "Loadout macros are not correctly included"];

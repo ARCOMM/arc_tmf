@@ -8,6 +8,7 @@ Description:
 
 Author:
 	Freddo
+	tim4242
 ---------------------------------------------------------------------------- */
 
 private _output = [];
@@ -19,7 +20,7 @@ private _platoonNames = ("true" configClasses (configFile >> "CfgWorlds" >> "Gro
 private _squadNames = ("true" configClasses (configFile >> "CfgWorlds" >> "GroupSquad")) apply {getText (_x >> "Name")};
 
 {
-	private _nameArr = (groupID _x) splitString " -";
+	private _nameArr = (groupId _x) splitString " -";
 	if (count _nameArr == 3
 		&& {(_nameArr # 0) in _companyNames}
 		&& {(_nameArr # 1) in _platoonNames}
