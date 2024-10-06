@@ -8,7 +8,7 @@
 #define MEDICAL_CLS \
 "Medikit", \
 LIST_2("ACE_bodyBag"), \
-LIST_2("ACE_tourniquet") \
+LIST_2("ACE_tourniquet"), \
 LIST_2("ACE_painkillers")
 
 
@@ -23,7 +23,7 @@ LIST_2("ACE_bodyBag"), \
 LIST_10("ACE_splint"), \
 LIST_5("ACE_salineIV"), \
 "ACE_surgicalKit", \
-LIST_20("ACE_suture") \
+LIST_20("ACE_suture"), \
 LIST_10("ACE_painkillers")
 
 #define MTR_GEAR \
