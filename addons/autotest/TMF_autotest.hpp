@@ -48,7 +48,9 @@ class TMF_autotest {
 	class GVAR(testPlayers) {
 		code = QUOTE([] call FUNC(testPlayers));
 	};
+	/* ARC MT check is useless now because of different automation setup.
 	class GVAR(testTemplate) {
 		code = QUOTE([] call FUNC(testTemplate));
 	};
+	*/
 };
