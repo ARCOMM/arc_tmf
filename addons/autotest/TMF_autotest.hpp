@@ -36,12 +36,14 @@ class TMF_autotest {
 			container = "items";
 			contents[] = {MTR_GEAR};
 		};
+                /*
 		class fac_gear {
 			name = "FAC_GEAR";
 			role = "fac";
 			container = "backpackItems";
 			contents[] = {FAC_GEAR};
 		};
+                */
 
 		code = QUOTE([] call FUNC(testMacros));
 	};

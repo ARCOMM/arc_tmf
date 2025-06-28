@@ -11,7 +11,6 @@ LIST_2("ACE_bodyBag"), \
 LIST_2("ACE_tourniquet"), \
 LIST_2("ACE_painkillers")
 
-
 #define MEDICAL_M \
 "Medikit", \
 LIST_20("ACE_fieldDressing"), \
